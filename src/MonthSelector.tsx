@@ -118,7 +118,7 @@ class MonthSelector extends React.Component<
     onMonthTapped: month => {},
     onYearChanged: year => {},
     monthDisabledStyle: { color: "#00000050" },
-    localeLanguage: "en",
+    localeLanguage: "pt-br",
     localeSettings: {},
     swipable: false,
     velocityThreshold: 0.3,
