@@ -29,7 +29,7 @@ const getMonthListFirstDayDate = (date: moment.Moment) => {
 interface MonthSelectorProps {
   selectedDate: moment.Moment
   currentDate: moment.Moment
-  maxDate: moment("01-01-3000");
+  maxDate: moment.Moment
   minDate: moment.Moment
   selectedBackgroundColor: string
   selectedMonthTextStyle: TextStyle
@@ -97,7 +97,7 @@ class MonthSelector extends React.Component<
   static defaultProps = {
     selectedDate: moment(),
     currentDate: moment(),
-    maxDate: moment(),
+    maxDate: moment("01-0132000", "DD-MM-YYYY"),
     minDate: moment("01-01-2000", "DD-MM-YYYY"),
     selectedBackgroundColor: "#000",
     selectedMonthTextStyle: { color: "#fff" },
